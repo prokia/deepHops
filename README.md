@@ -1,10 +1,10 @@
 # DeepHop
 
-Supporting Information for the paper "[Deep Scaffold Hopping with Multimodal Transformer Neural Networks](https://www.nature.com/articles/s42256-020-0152-y)"
+Supporting Information for the paper "[Deep Scaffold Hopping with Multimodal Transformer Neural Networks](https://chemrxiv.org/engage/chemrxiv/article-details/60c75035f96a005e48287d8f)"
 
 DeepHop is a multi-modal molecular transformation framework. It accepts a hit molecule and an interest target protein sequence as inputs and design isofunctional molecular structures to the source compound.
 
-![DeepHop](Image/DeepHop.png)
+![DeepHop](Image/DeepHop.jpg)
 
 
 
@@ -61,6 +61,17 @@ To evaluate our model
  python pvalue_score_predictions.py -beam_size 10 -src summary_tue/data40/after/9500/src-test-protein.txt -prediction /data/u1/projects/mget_3d/summary_tue/data40/after/9500/pred.txt -score_file /data/u1/projects/mget_3d/summary_tue/data40/after/9500/score.csv -invalid_smiles -cond summary_tue/data40/after/9500/cond-test-protein.txt -train_data_dir /data/u1/projects/mget_3d/data40_tue_3d -scorer_model_dir /data/u1/projects/score/total_mtr -pvalue_dir /data/u1/projects/mget_3d/score_train_data
 ```
 where the final result report is saved at /data/u1/projects/mget_3d/summary_tue/data40/after/9500/score_final.csv
+
+## Citation
+
+Please cite the following paper if you use this code in your work.
+```bibtex
+@article{zheng2020deep,
+  title={Deep Scaffold Hopping with Multi-modal Transformer Neural Networks},
+  author={Zheng, Shuangjia and Lei, Zengrong and Ai, Haitao and Chen, Hongming and Deng, Daiguo and Yang, Yuedong},
+  year={2020}
+}
+```
 
 
 
