@@ -66,10 +66,15 @@ where the final result report is saved at /data/u1/projects/mget_3d/summary_tue/
 
 Please cite the following paper if you use this code in your work.
 ```bibtex
-@article{zheng2020deep,
-  title={Deep Scaffold Hopping with Multi-modal Transformer Neural Networks},
+@article{zheng2021deep,
+  title={Deep scaffold hopping with multimodal transformer neural networks},
   author={Zheng, Shuangjia and Lei, Zengrong and Ai, Haitao and Chen, Hongming and Deng, Daiguo and Yang, Yuedong},
-  year={2020}
+  journal={Journal of cheminformatics},
+  volume={13},
+  number={1},
+  pages={1--15},
+  year={2021},
+  publisher={Springer}
 }
 ```
 
